@@ -1,0 +1,15 @@
+[package]
+name = "file"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rand = { version = "0.9.1", features = ["std"] }
+aead = "0.5" 
+aes-gcm = "0.10"
+aes = "0.8"
+sha2 = "0.10"
+pbkdf2 = "0.12"
+hmac = "0.12"
+rand_core = "0.6"
+hex = "0.4"
